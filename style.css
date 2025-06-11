@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* color: violet; */
+    box-sizing: border-box;
+  font-family: "Baumans", system-ui;
+}
+#container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.logo{
+  width: 2%; 
+  /* border: solid greenyellow; */
+}
+
+.neon-navbar {
+  box-shadow: 0px 2px 8px 10px #6ec1b2;
+  /* background-color: #ffff7b; */
+  background-color: #6ec1b2;
+}
+.navfont{
+  font-family: "Baumans", system-ui;
+  font-size: 1.2rem;
+}
+.vdo{
+  height: 95%;
+}
+@font-face {
+  font-family: 'SuperBread';
+  src: url('./font/SuperBread-ywdRV.ttf') format('truetype'); /* or 'truetype' if it's .ttf */
+}
+.superbread {
+  font-family: 'SuperBread', sans-serif;
+  color: #ffff7b;
+}
+.lead{
+  color: #ffff7b;
+}
+.ticket-btn{
+  background-color: #ffff7b !important; /* neon yellow */
+  color: #000000 !important;               /* black text */
+  border: none !important;
+}
+.ticket-btn:hover {
+  background-color: #fcfc46 !important; /* darker yellow */
+  color: #000 !important;
+}
+.bg{
+  background-color: #6ec1b2;
+  box-shadow: 0px -25px 60px 70px#6ec1b2;
+}
+.crd{
+  background-color: gray !important;
+}
