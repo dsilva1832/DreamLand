@@ -1,26 +1,23 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    /* color: violet; */
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
   font-family: "Baumans", system-ui;
 }
-#container {
+#container{
     width: 100%;
     height: 100%;
     position: relative;
-    /* overflow-x: hidden; */
-    /* overflow-y: hidden; */
 }
 .logo{
   width: 2%; 
-  /* border: solid greenyellow; */
+  color: white !important;
+  filter: brightness(0%) invert(200%);
 }
-
-.neon-navbar {
-  box-shadow: 0px 2px 8px 10px #6ec1b2;
+.neon-navbar{
+  box-shadow: 0px 2px 8px 10px /*#fe7667*/ black;
   background-color: #ffff7b;
-  background-color: #6ec1b2;
+  background-color: /*#fe7667*/ black;
   /* background-color: transparent !important;
   border: none !important;
   background-image: none !important; */
@@ -34,7 +31,7 @@
 }
 @font-face {
   font-family: 'SuperBread';
-  src: url('./font/SuperBread-ywdRV.ttf') format('truetype'); /* or 'truetype' if it's .ttf */
+  src: url('./font/SuperBread-ywdRV.ttf') format('truetype');
 }
 .superbread {
   font-family: 'SuperBread', sans-serif;
@@ -44,47 +41,36 @@
   color: #ffff7b;
 }
 .ticket-btn{
-  background-color: #ffff7b !important; /* neon yellow */
-  color: #000000 !important;               /* black text */
+  background-color: #ffff7b !important; 
+  color: #000000 !important;            
   border: none !important;
 }
 .ticket-btn:hover {
-  background-color: #fcfc46 !important; /* darker yellow */
+  background-color: #fcfc46 !important; 
   color: #000 !important;
 }
-/* #artists{
-  wid
-} */
 .bg{
-  background-color: #6ec1b2;
-  box-shadow: 0px -25px 60px 70px#6ec1b2;
+  background-color: #fa409d;
+  box-shadow: 0px -25px 60px 70px#fa409d;
 }
-.crd{
-  /* display: none; */
-  margin: 0px;
+.bg1{
+  background-color: #cb0ee2;
+  box-shadow: 0px -25px 60px 70px#cb0ee2;
 }
-/* .artistimg{
-  width: 250px;
-  height: 30%;
-  position: absolute;
-} */
 .artist-name{
   /* position: absolute; */
   color: rgb(189, 17, 17);
   top: 150px;
   margin-left: 50px;
-
-  
   /* font-size: 2vw; */
   /* font-family: "Bowlby One SC", sans-serif; */
-
 }
 .col:hover{
-  border: solid 5px #6ec1b2;
+  border: solid 5px transparent !important;
   cursor: pointer;
 }
 .large-img {
-  height: 385px; /* Increase image height as needed */
+  height: 370px; /* Increase image height as needed */
   object-fit: cover; /* Ensures image scales/crops nicely */
 }
 .card-text{
@@ -97,6 +83,11 @@
 }
 .font{
    font-family: "Roboto", sans-serif !important;
+}
+.card1:hover{
+  cursor: pointer;
+  border: solid 2px transparent !important;
+  margin-bottom: 10px;
 }
 .card-body{
   position: relative;
