@@ -9,6 +9,8 @@
     width: 100%;
     height: 100%;
     position: relative;
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
 }
 .logo{
   width: 2%; 
@@ -17,8 +19,11 @@
 
 .neon-navbar {
   box-shadow: 0px 2px 8px 10px #6ec1b2;
-  /* background-color: #ffff7b; */
+  background-color: #ffff7b;
   background-color: #6ec1b2;
+  /* background-color: transparent !important;
+  border: none !important;
+  background-image: none !important; */
 }
 .navfont{
   font-family: "Baumans", system-ui;
@@ -47,10 +52,54 @@
   background-color: #fcfc46 !important; /* darker yellow */
   color: #000 !important;
 }
+/* #artists{
+  wid
+} */
 .bg{
   background-color: #6ec1b2;
   box-shadow: 0px -25px 60px 70px#6ec1b2;
 }
 .crd{
-  background-color: gray !important;
+  /* display: none; */
+  margin: 0px;
+}
+/* .artistimg{
+  width: 250px;
+  height: 30%;
+  position: absolute;
+} */
+.artist-name{
+  /* position: absolute; */
+  color: rgb(189, 17, 17);
+  top: 150px;
+  margin-left: 50px;
+
+  
+  /* font-size: 2vw; */
+  /* font-family: "Bowlby One SC", sans-serif; */
+
+}
+.col:hover{
+  border: solid 5px #6ec1b2;
+  cursor: pointer;
+}
+.large-img {
+  height: 385px; /* Increase image height as needed */
+  object-fit: cover; /* Ensures image scales/crops nicely */
+}
+.card-text{
+  width: 100%;
+  margin-top: 40%;
+  font-family: "Roboto", sans-serif !important;
+  background: rgba(0, 0, 0, 0.4); width: 100%;
+  border-radius: 100px;
+  /* font-size: 1; */
+}
+.font{
+   font-family: "Roboto", sans-serif !important;
+}
+.card-body{
+  position: relative;
+  background-color: #ffff7b;
+  /* box-shadow: 0 0px 10px 5px #000000; */
 }
