@@ -22,6 +22,9 @@
   border: none !important;
   background-image: none !important; */
 }
+.navbar-toggler-icon {
+  filter: invert(1); /* Makes black icon white */
+}
 .navfont{
   font-family: "Baumans", system-ui;
   font-size: 1.2rem;
@@ -51,11 +54,19 @@
 }
 .bg{
   background-color: #fa409d;
-  box-shadow: 0px -25px 60px 70px#fa409d;
+  box-shadow: 0px -25px 60px 70px#fa409d, 0px 20px 70px 90px#fa409d;
 }
 .bg1{
   background-color: #cb0ee2;
   box-shadow: 0px -25px 60px 70px#cb0ee2;
+}
+.bg2{
+  background-color: #fe7667;
+  box-shadow: 0px -25px 60px 70px #fe7667;
+}
+.bg3{
+  background-color: #ffd32a;
+  box-shadow: 0px -25px 90px 110px #ffd32a;
 }
 .artist-name{
   /* position: absolute; */
@@ -65,7 +76,7 @@
   /* font-size: 2vw; */
   /* font-family: "Bowlby One SC", sans-serif; */
 }
-.col:hover{
+.dj:hover{
   border: solid 5px transparent !important;
   cursor: pointer;
 }
@@ -93,4 +104,17 @@
   position: relative;
   background-color: #ffff7b;
   /* box-shadow: 0 0px 10px 5px #000000; */
+}
+.footer-head{
+  font-size: 5rem;
+}
+.footertxt{
+  font-size: 1.5rem;
+  color: white;
+}
+.owr{
+  width: 60px;
+}
+.owr1{
+  width: 50px;
 }
