@@ -118,3 +118,17 @@
 .owr1{
   width: 50px;
 }
+.footer-fw{
+   font-family: "Lora", serif;
+   font-weight: 600;
+}
+.owner{
+  font-family: "Roboto", sans-serif;
+}
+.upArrow{
+    float: right;
+    margin: -40px -50px 20px 0px;
+    padding: 10px;
+    border:  solid white;
+    border-radius: 100px;
+}
