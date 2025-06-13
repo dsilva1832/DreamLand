@@ -9,28 +9,20 @@
     height: 100%;
     position: relative;
 }
-.logo{
-  width: 2%; 
-  color: white !important;
-  filter: brightness(0%) invert(200%);
-}
 .neon-navbar{
-  box-shadow: 0px 2px 8px 10px /*#fe7667*/ black;
-  background-color: #ffff7b;
-  background-color: /*#fe7667*/ black;
-  /* background-color: transparent !important;
-  border: none !important;
-  background-image: none !important; */
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
 .navbar-toggler-icon {
-  filter: invert(1); /* Makes black icon white */
+  filter: invert(500%);
+  color: #ffff7b !important;
 }
 .navfont{
   font-family: "Baumans", system-ui;
   font-size: 1.2rem;
 }
 .vdo{
-  height: 95%;
+  height: 120%;
 }
 @font-face {
   font-family: 'SuperBread';
@@ -54,7 +46,7 @@
 }
 .bg{
   background-color: #fa409d;
-  box-shadow: 0px -25px 60px 70px#fa409d, 0px 20px 70px 90px#fa409d;
+  box-shadow: 0px 15px 50px 40px#fa409d; 
 }
 .bg1{
   background-color: #cb0ee2;
