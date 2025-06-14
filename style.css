@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: "Baumans", system-ui;
+  /* overflow-x: hidden; */
 }
 #container{
     width: 100%;
@@ -22,7 +23,7 @@
   font-size: 1.2rem;
 }
 .vdo{
-  height: 120%;
+  height: 100%;
 }
 @font-face {
   font-family: 'SuperBread';
@@ -44,21 +45,45 @@
   background-color: #fcfc46 !important; 
   color: #000 !important;
 }
-.bg{
+.img-abt {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+
+.abthead {
+  font-family: "Bowlby One SC", sans-serif;
+}
+
+.abt-txt {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+
+.abtbtn {
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  font-family: "Roboto", sans-serif !important;
+}
+.bg {
   background-color: #fa409d;
-  box-shadow: 0px 15px 50px 40px#fa409d; 
+  box-shadow: 0 0 80px 60px #fa409d; /* evenly in all directions */
 }
-.bg1{
+
+.bg1 {
   background-color: #cb0ee2;
-  box-shadow: 0px -25px 60px 70px#cb0ee2;
+  box-shadow: 0 0 80px 90px #cb0ee2;
 }
-.bg2{
+
+.bg2 {
   background-color: #fe7667;
-  box-shadow: 0px -25px 60px 70px #fe7667;
+  box-shadow: 0 0 80px 90px #fe7667;
 }
-.bg3{
+
+.bg3 {
   background-color: #ffd32a;
-  box-shadow: 0px -25px 90px 110px #ffd32a;
+  box-shadow: 0 0 90px 95px #ffd32a;
 }
 .artist-name{
   /* position: absolute; */
@@ -73,8 +98,8 @@
   cursor: pointer;
 }
 .large-img {
-  height: 370px; /* Increase image height as needed */
-  object-fit: cover; /* Ensures image scales/crops nicely */
+  height: 370px; 
+  object-fit: cover; 
 }
 .card-text{
   width: 100%;
@@ -119,7 +144,7 @@
 }
 .upArrow{
     float: right;
-    margin: -40px -50px 20px 0px;
+    margin: -40px -10px 10px 0px;
     padding: 10px;
     border:  solid white;
     border-radius: 100px;
